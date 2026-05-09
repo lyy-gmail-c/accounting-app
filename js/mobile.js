@@ -546,15 +546,37 @@ const MobileUI = {
           <button class="about-close" aria-label="关闭">✕</button>
         </div>
         <div class="about-body">
-          <div class="about-tagline">极简记账 · 手机记账 PC 对账 · 数据本地存储</div>
+          <div class="about-tagline">一个网址 · 双端不同形态 · 手机便捷记账 · 电脑科学对账</div>
 
           <div class="about-section">
-            <div class="about-section-title">✨ 项目特点</div>
+            <div class="about-section-title">✨ 核心特点</div>
             <ul class="about-list">
-              <li><strong>极简设计</strong>：零外部依赖，纯原生实现，启动即用</li>
-              <li><strong>双端协作</strong>：手机快速记账，PC 多账户对账统计</li>
-              <li><strong>数据安全</strong>：全部存于本地 IndexedDB，不上传任何服务器</li>
-              <li><strong>离线可用</strong>：PWA 安装后无需网络也能使用</li>
+              <li><strong>同一网址双端形态</strong>：手机打开是记账器，电脑打开是对账中心</li>
+              <li><strong>数据完全本地</strong>：只存在你的浏览器里，不上传任何服务器</li>
+              <li><strong>离线可用</strong>：安装到主屏后断网也能记</li>
+              <li><strong>极简设计</strong>：启动即用，不到 200KB，无任何第三方库</li>
+            </ul>
+          </div>
+
+          <div class="about-section">
+            <div class="about-section-title">📱 手机端 · 便捷记账</div>
+            <ul class="about-list">
+              <li><strong>记一笔只要 3 秒</strong>：金额 → 分类 → 保存，无需选账户</li>
+              <li><strong>分类极简</strong>：衣 / 食 / 住 / 行 / 其他，不纠结</li>
+              <li><strong>查账清爽</strong>：按月无限下滑，月份标题吸顶</li>
+              <li><strong>一眼看清收支</strong>：按月列出支出、收入、结余与总余额</li>
+              <li><strong>一键分享到电脑</strong>：经微信/邮件发到 PC 端智能补齐</li>
+            </ul>
+          </div>
+
+          <div class="about-section">
+            <div class="about-section-title">💻 电脑端 · 科学对账</div>
+            <ul class="about-list">
+              <li><strong>精细化记账</strong>：支出 / 收入 / 转账，多账户、三级分类</li>
+              <li><strong>多维筛选 + CSV 导出</strong>：按时间、账户、分类随心查</li>
+              <li><strong>趋势与对账</strong>：折线图看走势，按账户 / 分类分别统计</li>
+              <li><strong>分类账户自由组织</strong>：增删改拖拽排序，账户支持初始余额</li>
+              <li><strong>全局备份与恢复</strong>：一份文件打包全部数据，迁移无忧</li>
             </ul>
           </div>
 
@@ -566,28 +588,10 @@ const MobileUI = {
           </div>
 
           <div class="about-section">
-            <div class="about-section-title">📱 手机端功能</div>
-            <ul class="about-list">
-              <li>支出 / 收入 快速记账</li>
-              <li>5 大扁平分类（衣食住行 + 其他）</li>
-              <li>今日记录摘要 + 月度统计</li>
-              <li>JSON 数据导出（支持系统分享）</li>
-            </ul>
-          </div>
-
-          <div class="about-section">
-            <div class="about-section-title">💻 PC 端功能</div>
-            <ul class="about-list">
-              <li>支出 / 收入 / 转账 三种记账类型</li>
-              <li>多账户管理 + 三级分类体系</li>
-              <li>账户粒度对账统计 + 趋势图</li>
-              <li>数据导入导出 + 智能补齐</li>
-            </ul>
-          </div>
-
-          <div class="about-section">
-            <div class="about-section-title">🛠 技术栈</div>
-            <div class="about-tech">原生 HTML + JS + CSS · IndexedDB · Service Worker · GitHub Pages</div>
+            <div class="about-section-title">📦 项目地址</div>
+            <a class="about-link" href="https://github.com/lyy-gmail-c/accounting-app" target="_blank" rel="noopener">
+              https://github.com/lyy-gmail-c/accounting-app
+            </a>
           </div>
 
           <div class="about-footer">MIT License · 个人项目 · 欢迎 Fork 自用</div>

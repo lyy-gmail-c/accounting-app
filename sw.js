@@ -2,7 +2,7 @@
  * MiniBook V3 - Service Worker (离线缓存)
  */
 
-const CACHE_NAME = 'minibook-v3-cache-20260508';
+const CACHE_NAME = 'minibook-v3-cache-20260509';
 const ASSETS = [
   './',
   './index.html',
